@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Celebrate Holi, the festival of colors, with vibrant wishes and traditions.">
+    <meta name="keywords" content="Holi, Festival of Colors, Hindu Festival, Holi Celebration, Happy Holi Wishes">
+    <meta name="author" content="Your Website Name">
+    <title>Holi Festival Blog - Celebrate the Festival of Colors</title>
+
+    <!-- Google AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            color: #e63946;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .share-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .ad-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Holi - The Festival of Colors</h1>
+        <img src="./2.jpeg" alt="Holi Celebration">
+        <p>Holi, known as the festival of colors, is one of the most vibrant and joyous festivals celebrated in India
+            and across the world. It marks the arrival of spring and the victory of good over evil.</p>
+
+        <h2>History and Significance</h2>
+        <p>Holi has its roots in Hindu mythology, primarily the legend of Prahlada and Holika. Prahlada, a devotee of
+            Lord Vishnu, was saved from his evil aunt Holika, who was burned in fire while he remained unharmed. This
+            symbolizes the triumph of good over evil.</p>
+
+        <div class="ad-container">
+            <!-- Google AdSense Ad Slot -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-xxxxxxxxxxxxxxxx" 
+                data-ad-slot="xxxxxxxxxx" 
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <h2>How Holi is Celebrated?</h2>
+        <p>The celebrations begin with Holika Dahan, where people gather around bonfires and pray for the destruction of
+            evil forces. The next day, people play with colors, water balloons, and enjoy festive delicacies like gujiya
+            and thandai.</p>
+
+        <h2>Holi Around the World</h2>
+        <p>While Holi is mainly celebrated in India and Nepal, it has gained popularity worldwide, with large
+            celebrations in countries like the USA, UK, Australia, and Canada. People of different cultures come
+            together to enjoy the festivities.</p>
+
+        <div class="ad-container">
+            <!-- Google AdSense Ad Slot -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-xxxxxxxxxxxxxxxx" 
+                data-ad-slot="xxxxxxxxxx" 
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <h2>Holi Wishes and Greetings</h2>
+        <p>Spread the joy of Holi by sending wishes to your loved ones. Enter your name below and share Holi greetings
+            on WhatsApp.</p>
+        <input type="text" id="username" placeholder="Enter your name">
+        <a href="#" class="share-button" onclick="shareOnWhatsApp()">Share on WhatsApp</a>
+    </div>
+
+    <script>
+        function shareOnWhatsApp() {
+            var name = document.getElementById('username').value.trim();
+            if (!name) {
+                alert('Please enter your name.');
+                return;
+            }
+
+            var webLink = "http://yourwebsite.com"; // Replace with your actual link
+            var message = `🎨✨ Happy Holi! 🌸🌈\n\nWishing you a festival filled with vibrant colors, joy, and endless happiness! May this Holi bring new beginnings and sweet moments into your life.\n\nCelebrate the festival of colors with us! Click here: ${webLink}\n\nEnjoy, Stay Safe & Keep Spreading Colors of Love! 🎊💖🎉\n\n-Sent By ${name}`;
+            var url = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
